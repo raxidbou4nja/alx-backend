@@ -1,7 +1,6 @@
-
 #!/usr/bin/env python3
 """
-script
+ script to get
 """
 
 import csv
