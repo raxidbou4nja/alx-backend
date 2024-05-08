@@ -25,7 +25,7 @@ class LFUCache(BaseCaching):
         if len(self.cache_data) > BaseCaching.MAX_ITEMS:
             first = self.queue.pop(0)
             del self.cache_data[first]
-            print("DISCARD: {}".format(first))
+            print(f"DISCARD: {first}")
 
     def get(self, key):
         """ Get an item by key
