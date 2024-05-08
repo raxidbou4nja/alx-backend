@@ -25,7 +25,7 @@ class MRUCache(BaseCaching):
         if len(self.cache_data) > BaseCaching.MAX_ITEMS:
             last = self.queue.pop(-1)
             del self.cache_data[last]
-            print("DISCARD: {}".format(last))
+            print(f'DISCARD: {last}')
 
     def get(self, key):
         """ Get an item by key
