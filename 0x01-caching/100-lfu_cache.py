@@ -1,4 +1,3 @@
-# Create a class LFUCache that inherits from BaseCaching and is a caching system:
 #!/usr/bin/python3
 """ LFUCache module
 """
