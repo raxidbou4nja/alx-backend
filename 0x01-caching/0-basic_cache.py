@@ -16,7 +16,7 @@ class BasicCache(BaseCaching):
         if len(self.cache_data) > BaseCaching.MAX_ITEMS:
             keys = list(self.cache_data.keys())
             del self.cache_data[keys[0]]
-    
+
     def get(self, key):
         """ Get an item by key
         """
